@@ -1,0 +1,29 @@
+"""
+Author: Nicholas Ruprecht
+"""
+
+def add(x, y):
+    """ sum of x and y."""
+    return x + y
+def subtract(x, y):
+    """difference of x and y."""
+    return x - y
+
+def main():
+    x = float(input("Enter first number: "))
+    y = float(input("Enter second number: "))
+    operation = input("Choose operation: add or subtract: ").strip().lower()
+
+    if operation == "add":
+        result = add(x, y)
+    elif operation == "subtract":
+        result = subtract(x, y)
+    else:
+        result = "Invalid operation selected."
+
+    print("The result is:", result)
+    
+if __name__ == "__main__":
+    main()
+
+

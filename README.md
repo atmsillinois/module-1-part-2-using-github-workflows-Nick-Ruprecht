@@ -1,7 +1,14 @@
-# Create a README.md
+# Basic Calculator - Subtraction Feature
 
-If you need help with `Markdown`, check out [The Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)!
+This Python script allows users to input two numbers and choose between addition or subtraction. It uses functions, follows PEP 8 formatting and PEP 257 documentation standards, and demonstrates GitHub branching and pull request workflows.
 
-What should a good README.md look like? Check out these [guidelines](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
+## How to Run
+1. Open terminal in GitHub Codespaces
+2. Run: `python calculator.py`
+3. Follow prompts to enter numbers and select operation
 
-Did you add an open source software license?
+## Features
+- Addition
+- Subtraction
+- Input validation
+- GitHub workflow: branching, commits, pull requests
